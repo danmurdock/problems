@@ -6,6 +6,7 @@ import (
 	"../prime"
 )
 
+// Factor returns a slice of all the prime factors for a value
 func Factor(value int) []int {
 
 	var factors []int

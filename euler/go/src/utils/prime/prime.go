@@ -1,5 +1,6 @@
 package prime
 
+// Seive returns a slice of all the primes below value
 func Seive(value int) []int {
 
 	max := value
