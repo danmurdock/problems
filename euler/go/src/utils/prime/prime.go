@@ -1,7 +1,8 @@
-package factor
+package prime
 
-func Factor(max int) []int {
+func Seive(value int) []int {
 
+	max := value
 	numbers := make([]int, max)
 	var primes []int
 
@@ -16,7 +17,7 @@ func Factor(max int) []int {
 		}
 
 		var multiple = j + j
-		for multiple < max { //int(math.Ceil(math.Sqrt(float64(max)))) {
+		for multiple < max {
 			numbers[multiple] = 0
 			multiple += j
 

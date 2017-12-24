@@ -1,7 +1,7 @@
 package main
 
 import "fmt"
-import "../prime"
+import "../utils/prime"
 
 func main() {
 
